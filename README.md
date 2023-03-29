@@ -12,3 +12,11 @@ Las entradas en este archivo también pueden seguir un modelo similar.
 * se usa para encontrar coincidencias
 / se usa para ignorar nombres de ruta relacionados con el archivo .gitignore
 # se usa para añadir comentarios al archivo .gitignore
+
+
+### Si resolvió correctamente los apartados 2 y 3 del punto anterior notará que el resultado es el mismo. ¿a qué se debe? ¿Qué obtiene en el punto 4? ¿Es igual a los anteriores? ¿Por qué?
+
+Cuando imprimo la direccion de memoria del puntero y de la variable puedo ver que son iguales,
+esto es asi porque el puntero apunta a la dirección de memoria de la variable.
+
+En el punto 4 imprimo la dirección de memoria del puntero, no la dirección de memoria a la que apunta el puntero.La dirección de memoria del puntero es la dirección en la que se almacena el puntero en la memoria del programa.
